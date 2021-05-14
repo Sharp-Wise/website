@@ -1,0 +1,45 @@
+.App {
+  background-image: url('./background.jpg');
+  background-repeat: no-repeat;
+  object-fit: fill;
+  background-position: center center;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > h1 {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.st0 {
+  fill: white;
+}
+
+.st1 {
+  fill: #90b0a1;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    margin: 2em;
+  }
+  .logo-root {
+    transform: scale(0.6);
+  }
+}
